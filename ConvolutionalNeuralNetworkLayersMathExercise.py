@@ -1,7 +1,11 @@
 """
 The programs are meant to be tested with 1 starting size at a time, so in def main(),
-please comment out 4 of the startingSizeXX() functions. Then run the script, and
-the results as well as parameters will be printed in the command line.
+please comment out 4 of the startingSizeXX() functions.
+
+If you want to test a new starting frame size, copy and paste from one of the existing
+startingSizeXX() functions, and edit the constants defined in those functions if needed.
+
+Run the script, and the results as well as parameters will be printed in the command line.
 
 No installs are needed.
 """
@@ -12,7 +16,7 @@ def main():
     startingSize69()
     startingSize227()
     startingSize250()
-    
+
     run()
 
 def run():
