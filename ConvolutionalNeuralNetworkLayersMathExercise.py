@@ -39,7 +39,7 @@ def run():
         else:
             nextLayerSize = ((currentSize - frameSize)/1) + 1
             print("using stride size of 1")
-        if nextLayerSize <= 0:
+        if nextLayerSize < 500:
             break
         print("sizeAfterConvolution: " + str(nextLayerSize))
 
